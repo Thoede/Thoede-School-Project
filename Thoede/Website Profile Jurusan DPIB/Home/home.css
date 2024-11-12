@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15); 
+}
+
+nav img {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.homelogo {
+    height: auto;
+    width: 300px;
+    margin-left: -130px;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: #2A3663;
+    font-size: 35px;
+    font-weight: 500; 
+    transition: 0.5s ease;
+}
+
+nav .navigation ul li a:hover {
+    color: #5b73ca;
+}
+
+.navigation {
+    margin-left: auto; 
+    font-weight: 500;
+    margin-top: auto;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+    transition: transform 0.3s ease; 
+}
+
+.profile:hover {
+    transform: scale(1.1); 
+}
+
+
+nav .navigation ul li a.active {
+    border-bottom: 5px solid #2A3663; 
+    padding-bottom: 2px;
+}
+
+.bordertop{
+    background-color: #69c8ff;
+  color: white;
+  box-shadow: #000;
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  font-size: 18px;
+}
+
+footer {
+    background-color: #2A3663; /* Warna latar belakang yang lebih gelap */
+    color: #fff; /* Teks berwarna putih untuk kontras */
+    padding: 30px 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid #5b73ca; /* Garis pembatas di atas footer */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer .logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+footer .footertext {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+footer .social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-media a {
+    color: #fff;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    transform: scale(1.2); /* Animasi perbesar ikon saat hover */
+    color: #5b73ca; /* Ubah warna ikon saat hover */
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+footer p strong {
+    font-size: 16px;
+}
+
+footer p small {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+
