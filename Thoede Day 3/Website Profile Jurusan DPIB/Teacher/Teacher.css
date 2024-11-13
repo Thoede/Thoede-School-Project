@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #54677c;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    margin:  56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+    0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.name {
+    margin-top: 80px;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 12px 8px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button i {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+button.facebook {
+    background: rgb(58,140,180);
+    background: radial-gradient(circle, rgba(58,140,180,1) 0%, rgba(29,112,253,1) 50%, rgba(69,88,252,1) 100%);
+}
+
+button.instagram {
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+} 
+
+.intaran{
+    margin-left:1px;
+    margin-top:25px
+}
+
+.aryu{
+    margin-left:8px;
+    margin-top:15px
+}
+
+.joni{
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.arimbawa{
+    margin-top:12px;
+    margin-left:5px;
+}
+
+.kertanegara{
+    margin-top:16px;
+}
+
+.nadiani{
+    margin-top:12px;
+    margin-left: 2px;
+}
+
+.pastika{
+    margin-top:15px;
+}
+
+.widarsa{
+    margin-left:15px;
+}
+
+.suryadewi{
+    margin-left:-11px;
+}
+
+.Luwih{
+    margin-top:20px
+}
+
+.trisnadewi{
+    margin-top:15px
+}
